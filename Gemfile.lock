@@ -121,6 +121,7 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.8)
+  rake (= 10.0.3)
   rspec-expectations
   rspec-rails
   sass-rails (~> 3.2.3)
