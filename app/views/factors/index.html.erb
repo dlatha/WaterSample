@@ -1,0 +1,29 @@
+<h1>Listing factors</h1>
+
+<table>
+  <tr>
+    <th>Factor1</th>
+    <th>Factor2</th>
+    <th>Factor3</th>
+    <th>Factor4</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @factors.each do |factor| %>
+  <tr>
+    <td><%= factor.factor1 %></td>
+    <td><%= factor.factor2 %></td>
+    <td><%= factor.factor3 %></td>
+    <td><%= factor.factor4 %></td>
+    <td><%= link_to 'Show', factor %></td>
+    <td><%= link_to 'Edit', edit_factor_path(factor) %></td>
+    <td><%= link_to 'Destroy', factor, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Factor', new_factor_path %>

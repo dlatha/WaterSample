@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  location: MyString
+  chloroform: 1.5
+  bromoform: 1.5
+  chlorodibromide: 1.5
+  dichlorobromide: 1.5
+
+two:
+  location: MyString
+  chloroform: 1.5
+  bromoform: 1.5
+  chlorodibromide: 1.5
+  dichlorobromide: 1.5
