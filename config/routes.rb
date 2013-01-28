@@ -4,6 +4,8 @@ WaterSample::Application.routes.draw do
   resources :samples do
 	get :test
   end
+  
+  root :to => "samples#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
